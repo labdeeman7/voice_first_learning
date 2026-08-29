@@ -90,7 +90,9 @@ For each meaningful milestone, the assistant will:
 6. State what does not yet work or was deliberately left out.
 7. Explain important design decisions without reviewing every line.
 8. Give the user a simple way to try or verify the behaviour.
-9. Stop before the next major milestone so the user can review and ask questions.
+9. Before committing, highlight a few interesting concepts or small code excerpts that help the user understand the milestone.
+10. Pause for questions and corrections; commit after the user is satisfied with the explanation.
+11. Stop before the next major milestone so the user can review and ask questions.
 
 Questions about why something was implemented a particular way are part of the project. Explanations should support understanding without turning routine work into a tutorial.
 

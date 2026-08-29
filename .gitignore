@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# User content and generated runtime data
+*.epub
+*.pdf
+*.wav
+*.mp3
+session.json
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
